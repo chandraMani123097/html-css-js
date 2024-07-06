@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(130, 232, 198);
+    
+}
+
+.div{
+    background-color: rgb(135, 233, 233);
+     margin-top: 40px;
+     margin-left: 30%;
+    height: 300px;
+    width: 400px;
+    border: 1.8px solid rgb(16, 15, 15);
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+h1{
+    margin-left: 25%;
+
+}
+
+input{
+    height: 25px;
+    margin: 25px;
+    font-size: 19px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(199, 194, 237);
+    color: rgb(21, 20, 20);
+    border: none;
+    border-radius: 9px;
+}
+
+button{
+    height: 25px;
+    margin-left: 0;
+    background-color: rgb(174, 165, 239);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.text ul{
+     position: relative;
+     background-color: rgb(10, 67, 48);
+     color: white;
+     padding: 5px;
+     font-size: 20px;
+     text-align: left;
+}
+
+.text ul i{
+    position: absolute;
+    right: 20px;
+}
+
+.text{
+    height: 20px;
+    width: 300px;
+    margin-left: 25px;
+}
