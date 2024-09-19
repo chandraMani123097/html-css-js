@@ -1,63 +1,110 @@
-body{
-    background-color: rgb(130, 232, 198);
-    
+body {
+  background-color: rgb(239, 229, 229);
+}
+.mainContainer {
+  align-items: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  width: 57%;
+  margin-top: 40px;
+  margin-left: 250px;
+  margin-right: 150px;
+  background: #4db6ac;
 }
 
-.div{
-    background-color: rgb(135, 233, 233);
-     margin-top: 40px;
-     margin-left: 30%;
-    height: 300px;
-    width: 400px;
-    border: 1.8px solid rgb(16, 15, 15);
-    border-radius: 20px;
-    position: relative;
-    
+h1 {
+  margin-left: 40%;
 }
 
-h1{
-    margin-left: 25%;
-
+#inp {
+  width: 300px;
+  height: 30px;
+  background-color: #edece8;
+  font-weight: 300;
+  font-size: 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
 }
 
-input{
-    height: 25px;
-    margin: 25px;
-    font-size: 19px;
-    outline: none;
-    cursor: pointer;
-    background-color: rgb(199, 194, 237);
-    color: rgb(21, 20, 20);
-    border: none;
-    border-radius: 9px;
+#inpDate {
+  width: 200px;
+  height: 30px;
+  background-color: #edece8;
+  font-weight: 300;
+  font-size: 25px;
+  border: none;
+
+  margin: 10px;
+  border-radius: 5px;
 }
 
-button{
-    height: 25px;
-    margin-left: 0;
-    background-color: rgb(174, 165, 239);
-    outline: none;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
+#btn-1 {
+  width: 65px;
+  height: 30px;
+  margin: 10px;
+  background-color: rgb(33, 205, 33);
+  font-size: 20px;
+  border: 0.5px;
+  border-radius: 5px;
 }
 
-.text ul{
-     position: relative;
-     background-color: rgb(10, 67, 48);
-     color: white;
-     padding: 5px;
-     font-size: 20px;
-     text-align: left;
+.div-1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
 }
 
-.text ul i{
-    position: absolute;
-    right: 20px;
+.a {
+  margin-left: 45%;
+  float: inherit;
+  font-size: 20px;
+  height: 30px;
+  width: 65pxx;
+  background-color: red;
+  border: 0.5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-.text{
-    height: 20px;
-    width: 300px;
-    margin-left: 25px;
+ul {
+  font-size: 25px;
+  color: #263238;
+  margin: auto;
+  margin-left: 50pxpx;
+  border-bottom: 0.5px solid;
+
+  margin: 15px;
+}
+
+i {
+  float: right;
+}
+
+.a:hover {
+  width: 66;
+  height: 31;
+  border: 1px solid black;
+}
+
+#btn-1:hover {
+  width: 66;
+  height: 31;
+  border: 1px solid black;
+}
+
+.text {
+  border-top: 1px solid black;
+
+  margin: 10px;
+}
+
+#inpDate:hover {
+  border: 0.5px solid black;
+}
+
+#inp:hover {
+  border: 0.5px solid black;
 }
